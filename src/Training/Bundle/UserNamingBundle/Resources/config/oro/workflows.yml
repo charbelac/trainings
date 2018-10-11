@@ -61,7 +61,7 @@ workflows:
                 form_options:
                     attribute_fields:
                         namingType:
-                            form_type: entity
+                            form_type: 'Symfony\Bridge\Doctrine\Form\Type\EntityType'
                             options:
                                 choice_label: title
                                 class: Training\Bundle\UserNamingBundle\Entity\UserNamingType
